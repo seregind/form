@@ -1,15 +1,20 @@
 @media screen and (max-width: 1200px) {
 	.section2 {
-		margin-left: 15px;
+		margin-left: px;
 	}
 	.btn-submit {
-		margin-right: 15px;
+		margin-right: px;
 	}
 }
-@media screen and (max-width: 1019px) {
+@media screen and (max-width: 1060px) {
+	.form1 input {
+		max-width: 70%;
+	}
+	.select1 {
+	width: 70%;
+	}
 	.form2box {
-		max-width: 800px;
-		width: 100%;
+		max-width: 70%;
 	}
 	.form2 {
 		text-align: center;
@@ -37,7 +42,27 @@
 		margin-right: 20px;
 	}
 }
+@media screen and (max-width: 961px) {
+	.section2 {
+		margin-left: 0;
+		flex-direction: column;
+		align-items: center;
+		margin-right: 15px;
+	}
+	.sec2box1 {
+		width: 70%;
+	}
+	.btn-submit {
+		width: 335px;
+		margin-bottom: 40px;
+		margin-right: 10px;
+	}
+}
+
 @media screen and (max-width: 800px) {
+	.form1 {
+		max-width: 350px;
+	}
 	.form1 input {
 		max-width: 335px;
 		width: 100%;
@@ -87,13 +112,6 @@
 	}
 	.box-save {
 		justify-content: flex-start;
-	}
-	.section2 {
-		margin-left: 0;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin-right: 15px;
 	}
 	.sec2box1 {
 		max-width: 335px;

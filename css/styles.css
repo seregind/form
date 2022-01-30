@@ -160,6 +160,7 @@ button {
 .section2 {
   margin-top: 30px;
   margin-left: 140px;
+  margin-right: 165px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,7 +189,6 @@ p:last-child {
   background-color: #16C402;
   border: none;
   border-radius: 25px;
-  margin-right: 165px;
 }
 
 a {
@@ -197,17 +197,24 @@ a {
 
 @media screen and (max-width: 1200px) {
   .section2 {
-    margin-left: 15px;
+    margin-left: px;
   }
 
   .btn-submit {
-    margin-right: 15px;
+    margin-right: px;
   }
 }
-@media screen and (max-width: 1019px) {
+@media screen and (max-width: 1060px) {
+  .form1 input {
+    max-width: 70%;
+  }
+
+  .select1 {
+    width: 70%;
+  }
+
   .form2box {
-    max-width: 800px;
-    width: 100%;
+    max-width: 70%;
   }
 
   .form2 {
@@ -242,7 +249,34 @@ a {
     margin-right: 20px;
   }
 }
+@media screen and (max-width: 961px) {
+  .section2 {
+    margin-left: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 15px;
+  }
+
+  .sec2box1 {
+    width: 70%;
+  }
+
+  .btn-submit {
+    width: 335px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+  }
+}
 @media screen and (max-width: 800px) {
+  .form1 {
+    max-width: 350px;
+  }
+
   .form1 input {
     max-width: 335px;
     width: 100%;
@@ -305,21 +339,6 @@ a {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-  }
-
-  .section2 {
-    margin-left: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-right: 15px;
   }
 
   .sec2box1 {
